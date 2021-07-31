@@ -48,15 +48,15 @@ searchHeaders.forEach(searchHeader => {
 });
 
 
-search-header-tb-mb__item-link
+
 // searchHeaderTlMb active
-const searchHeadersTlMb = $$('.search-header-tb-mb__item')
+const searchHeadersTlMb = $$('.search-header-tb-mb__item-link')
 
 searchHeadersTlMb.forEach(searchHeaderTlMb => {
     searchHeaderTlMb.addEventListener('click', (e) => {
         e.preventDefault();
-        $('.search-header-tb-mb__item--active').classList.remove('search-header-tb-mb__item--active');
-        searchHeaderTlMb.classList.add('search-header-tb-mb__item--active');
+        $('.search-header-tb-mb__item-link--active').classList.remove('search-header-tb-mb__item-link--active');
+        searchHeaderTlMb.classList.add('search-header-tb-mb__item-link--active');
     })
 });
 
