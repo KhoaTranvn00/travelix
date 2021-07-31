@@ -80,7 +80,7 @@ ul {
 .header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('/assets/images/bg_header.webp') top center / cover no-repeat;
+    background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('./assets/images/bg_header.webp') top center / cover no-repeat;
 }
 
 .header-topbar {
