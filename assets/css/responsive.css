@@ -1,0 +1,97 @@
+/* Only PC */
+@media (min-width:1023px) {
+    .hide-on-pc {
+        display: none;
+    }
+    
+    
+}
+
+/* Pc and Tablet */
+@media (min-width:740px) {
+    .hide-on-pc-tb {
+        display: none;
+    }
+}
+
+/* Only Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .hide-on-tb {
+        display: none;
+    }
+}
+
+
+/* Mobile and Tablet */
+@media (max-width:1023px) {
+    .hide-on-tb-mb {
+        display: none;
+    }
+    .header-nav__search-input {
+        width: 100%;
+    }
+}
+
+
+/* Only Mobile */
+@media (max-width:740px) {
+    .hide-on-mb{
+        display: none;
+    }
+    .header-nav-container {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .header-nav-container {
+        padding: 10px 0;
+    }
+    .header-nav__control-mb {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header-nav__search-input {
+        width: 200%;
+        top: calc(100% + 25px);
+    }
+    span.header-slider__heading {
+        font-size: 55px;
+    }
+    h1.header-slider__heading {
+        font-size: 55px;
+    }
+    .search-container {
+        margin: 0 8px;
+    }
+    .tour-list {
+        margin: 0 8px;
+    }
+    .offers-content {
+        margin: 0 10px;
+    }
+    .about-content {
+        margin: 0 10px;
+    }
+    .trending-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .trending-item__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .footer {
+        padding: 0 20px;
+    }
+    .footer-logo__name {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
